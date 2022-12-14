@@ -1,0 +1,77 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/toolbar_root"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_70"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/sp_12"
+        android:paddingEnd="@dimen/dp_12">
+
+        <ImageView
+            android:id="@+id/toolbar_back"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_60"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_5"
+            android:src="@drawable/back_icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/dp_10">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/toolbar_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/dp_18"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical"
+                android:text="The Barber Shop"
+                android:fadingEdge="horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:onClick="onClick"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notificationFrame"
+            android:onClick="onClick"
+            android:padding="@dimen/dp_8">
+
+        <ImageView
+            android:id="@+id/imageNotfication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:visibility="visible"
+
+            android:layout_marginTop="@dimen/dp_8"/>
+
+            <TextView
+                android:id="@+id/viewBadges"
+                android:layout_width="@dimen/dp_12"
+                android:layout_height="@dimen/dp_12"
+                android:onClick="onClick"
+                android:text=""
+                android:textSize="@dimen/sp_10"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp_4"
+                android:textColor="#fff"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:visibility="visible"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

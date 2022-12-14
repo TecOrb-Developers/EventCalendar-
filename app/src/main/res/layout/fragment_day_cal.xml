@@ -1,0 +1,52 @@
+<layout>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.appointmentbooking.weekviewCal.WeekViewCal
+        android:id="@+id/weekViewCal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoLimitTime="false"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="3dp"
+        app:dayBackgroundColor="#05000000"
+        app:headerColumnTextColor="@color/black"
+        app:headerRowBackgroundColor="@color/white"
+        app:maxTime="24"
+        app:minOverlappingMinutes="5"
+        app:minTime="4"
+        app:newEventTimeResolutionInMinutes="15"
+        app:noOfVisibleDays="3"
+        app:timeColumnResolution="60"
+        app:todayColumnBackgroundColor="#1848adff"
+        app:todayHeaderTextColor="@color/accent"
+        app:untitledEventText="@string/txt_in_minute"/>
+   <!-- <com.nayeepartner.weekviewCal.WeekViewCal
+        android:id="@+id/weekViewCal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:autoLimitTime="true"
+        app:dayBackgroundColor="#05000000"
+        app:headerColumnTextColor="@color/black"
+        app:headerRowBackgroundColor="@color/white"
+        app:maxTime="24"
+        app:minOverlappingMinutes="5"
+        app:minTime="6"
+        app:newEventTimeResolutionInMinutes="15"
+        app:noOfVisibleDays="3"
+        app:timeColumnResolution="60"
+        app:todayColumnBackgroundColor="#1848adff"
+        app:todayHeaderTextColor="@color/accent"/>-->
+    <TextView
+        android:id="@+id/draggable_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff0000"
+        android:padding="3dp"
+        android:visibility="gone"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
+</layout>

@@ -1,0 +1,137 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:background="@drawable/background_drawable"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/llOne"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar_search_places">
+            </include>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/llOne"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/card_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/widget_margin_small"
+                android:paddingBottom="@dimen/widget_margin_small">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/txt_sun"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/txt_mon"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/txt_tues"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/txt_wed"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/txt_thus"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/txt_fri"
+                    android:textColor="@color/colorAccent" />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/txt_sat"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/calendar_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toTopOf="@+id/buttonDone"
+            app:layout_constraintTop_toBottomOf="@+id/llTwo"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"/>
+
+        <Button
+            android:id="@+id/buttonDone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_button_yellow"
+            android:layout_gravity="bottom"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/dp_70"
+            android:paddingEnd="@dimen/dp_70"
+            android:text="@string/txt_submit"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="@dimen/dp_10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

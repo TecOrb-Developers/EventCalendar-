@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BookAppointmentCalender</string>
+    <string name="txt_in_minute">In Minute</string>
+    <string name="txt_ago">ago</string>
+    <string name="txt_day_ago">day ago</string>
+    <string name="txt_days_ago">days ago</string>
+    <string name="txt_hour_ago">hour ago</string>
+    <string name="txt_hours_ago">hours ago</string>
+    <string name="txt_mint_ago">mint ago</string>
+    <string name="txt_mints_ago">mints ago</string>
+    <string name="app_launcher_name">Calendar</string>
+    <string name="all_staff">All Staff</string>
+    <string name="txt_specialist">SPECIALISTS</string>
+    <string name="txt_specialist_small">Specialists</string>
+    <string name="txt_calender_view">Calender view</string>
+    <string name="txt_press_back_again_to_exit">Press back again to exit.</string>
+
+    <string name="txt_day">Day</string>
+    <string name="txt_mon">Mon</string>
+    <string name="txt_tues">Tues</string>
+    <string name="txt_wed">Wed</string>
+    <string name="txt_thus">Thu</string>
+    <string name="txt_fri">Fri</string>
+    <string name="txt_sat">Sat</string>
+    <string name="txt_sun">Sun</string>
+    <string name="txt_submit">Submit</string>
+
+</resources>

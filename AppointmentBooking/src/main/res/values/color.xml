@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--dialg color codes-->
+    <color name="colorOne">#a6c0ec</color>
+    <color name="colorTwo">#89b4e1</color>
+    <color name="colorThree">#6298ad</color>
+    <color name="colorFour">#a0e0d4</color>
+    <color name="colorFive">#7bc1a9</color>
+    <color name="colorSix">#b0e6af</color>
+    <color name="colorSeven">#b7d0b3</color>
+    <color name="colorEight">#e9ff7d</color>
+    <color name="colorNine">#ecfd88</color>
+    <color name="colorTen">#ceb08d</color>
+    <color name="colorEleven">#ffdade</color>
+    <color name="colorTwelve">#ffabb9</color>
+    <color name="colorThirteen">#ffa47e</color>
+    <color name="colorFourteen">#f6a691</color>
+    <color name="colorFifteen">#ffc474</color>
+    <color name="colorSixteen">#d6acd5</color>
+
+    <color name="navcolor">#f1f3f5</color>
+
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="event_color_05">#88f6f6</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+    <color name="orange">#F38B41</color>
+    <color name="colorAccent">#000</color>
+
+
+    <color name="indigo_medium">#3F51B5</color>
+    <color name="indigo_black">#1A237E</color>
+
+    <color name="grey_extra_light">#EEEEEE</color>
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey_normal">#BDBDBD</color>
+    <color name="grey_black">#212121</color>
+
+
+    <color name="color_gray_line">#F2F4F4</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <!--Background color-->
+    <color name="calendar_picker_bg">#00FFFFFF</color>
+
+    <color name="calendar_day_unselected_bg">#00000000</color>
+    <color name="calendar_day_selected_bg">#F98C47</color>
+    <color name="calendar_day_range_selected_bg">#F98C47</color>
+
+    <!--Font color-->
+    <color name="calendar_day_disabled_font">#dfe8e0</color>
+    <color name="calendar_day_weekend_font">#ff0000</color>
+    <color name="calendar_day_selected_font">#FFFFFF</color>
+    <color name="calendar_day_normal_font">#333333</color>
+
+    <color name="calendar_month_font">#000000</color>
+    <color name="calendar_week_font">#333333</color>
+</resources>

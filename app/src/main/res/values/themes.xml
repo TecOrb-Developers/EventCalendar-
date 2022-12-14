@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="Theme.BookAppointmentCalender" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar"
+            tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="DialogAnimation_new">
+        <item name="android:windowEnterAnimation">@anim/slide_up_one</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_one</item>
+    </style>
+
+
+</resources>
