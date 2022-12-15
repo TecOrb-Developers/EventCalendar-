@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_activity_dashboard.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_rotate_backward.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/rotate_backward.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_back_arrow_square.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/back_arrow_square.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.bookappointmentcalender.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_arrow_bg_next.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/arrow_bg_next.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_sel_calendar.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/sel_calendar.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_toolbar_menu.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/toolbar_menu.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_slide_up_one.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/slide_up_one.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_more_icon.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/more_icon.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_fab_open.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/fab_open.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_fab_close.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/fab_close.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_item_specialist_name.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/item_specialist_name.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_white_top_round.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_white_top_round.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_white.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_white.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_light_dark_gray.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_light_dark_gray.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_back_arrow_new.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/back_arrow_new.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_button_yellow.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_button_yellow.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_activity_vertical_calendar.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/activity_vertical_calendar.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_slide_bottom.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/slide_bottom.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_fragment_day_cal.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/fragment_day_cal.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_fragment_spe_cal.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/fragment_spe_cal.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_enter.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/enter.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_exit.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/exit.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_slide_bottom_one.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/slide_bottom_one.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_toolbar_search_places.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/toolbar_search_places.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_border_light_gray.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_border_light_gray.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_pop_exit.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/pop_exit.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_white_top_less_round.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_white_top_less_round.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_border_gray.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_border_gray.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_dialog_calender_view.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/dialog_calender_view.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_light_gray.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_light_gray.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_dark_gray.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_dark_gray.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_pop_enter.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/pop_enter.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_slide_in_right.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_rotate_forward.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/rotate_forward.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_bg_button_yellow_less_round.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/bg_button_yellow_less_round.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_slide_up.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_fade_out.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_arrow_down.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/arrow_down.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/drawable_back_icon.png.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/drawable/back_icon.png"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/anim_fade_in.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-merged_res-35:/layout_toolbar_dashboard.xml.flat",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/toolbar_dashboard.xml"
+    }
+]

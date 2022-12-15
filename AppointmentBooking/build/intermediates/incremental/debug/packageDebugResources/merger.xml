@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res"/><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/build/generated/res/rs/debug"/><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res"><file name="calendar_card_view" path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/layout/calendar_card_view.xml" qualifiers="" type="layout"/><file name="calendar_card_row" path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/layout/calendar_card_row.xml" qualifiers="" type="layout"/><file name="calendar_card_cell" path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/layout/calendar_card_cell.xml" qualifiers="" type="layout"/><file name="background_drawable" path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/drawable/background_drawable.xml" qualifiers="" type="drawable"/><file name="bg_selected_date_background" path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/drawable/bg_selected_date_background.xml" qualifiers="" type="drawable"/><file name="calendar_cell_text_color" path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/color/calendar_cell_text_color.xml" qualifiers="" type="color"/><file path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="CountDownTimerView">
+        <attr format="integer" name="maxTimeInSeconds"/>
+        <attr format="integer" name="intervalInSeconds"/>
+    </declare-styleable><declare-styleable name="WeekView">
+        <attr format="enum" name="firstDayOfWeek">
+            <enum name="sunday" value="1"/>
+            <enum name="monday" value="2"/>
+            <enum name="tuesday" value="3"/>
+            <enum name="wednesday" value="4"/>
+            <enum name="thursday" value="5"/>
+            <enum name="friday" value="6"/>
+            <enum name="saturday" value="7"/>
+        </attr>
+        <attr format="dimension" name="hourHeight"/>
+        <attr format="dimension" name="minHourHeight"/>
+        <attr format="dimension" name="maxHourHeight"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="dimension" name="eventTextSize"/>
+        <attr format="dimension" name="headerColumnPadding"/>
+        <attr format="dimension" name="headerRowPadding"/>
+        <attr format="dimension" name="columnGap"/>
+        <attr format="color" name="headerColumnTextColor"/>
+        <attr format="integer" name="noOfVisibleDays"/>
+        <attr format="boolean" name="showFirstDayOfWeekFirst"/>
+        <attr format="color" name="headerRowBackgroundColor"/>
+        <attr format="color" name="dayBackgroundColor"/>
+        <attr format="color" name="hourSeparatorColor"/>
+        <attr format="color" name="todayBackgroundColor"/>
+        <attr format="color" name="todayHeaderTextColor"/>
+        <attr format="dimension" name="hourSeparatorHeight"/>
+        <attr format="color" name="eventTextColor"/>
+        <attr format="dimension" name="eventPadding"/>
+        <attr format="color" name="headerColumnBackground"/>
+        <attr format="enum" name="dayNameLength">
+            <enum name="length_short" value="1"/>
+            <enum name="length_long" value="2"/>
+        </attr>
+        <attr format="dimension" name="overlappingEventGap"/>
+        <attr format="dimension" name="eventMarginVertical"/>
+        <attr format="float" name="xScrollingSpeed"/>
+        <attr format="dimension" name="eventCornerRadius"/>
+        <attr format="boolean" name="showDistinctPastFutureColor"/>
+        <attr format="boolean" name="showDistinctWeekendColor"/>
+        <attr format="color" name="futureBackgroundColor"/>
+        <attr format="color" name="pastBackgroundColor"/>
+        <attr format="color" name="futureWeekendBackgroundColor"/>
+        <attr format="color" name="pastWeekendBackgroundColor"/>
+        <attr format="boolean" name="showNowLine"/>
+        <attr format="color" name="nowLineColor"/>
+        <attr format="dimension" name="nowLineThickness"/>
+        <attr format="boolean" name="horizontalFlingEnabled"/>
+        <attr format="boolean" name="verticalFlingEnabled"/>
+        <attr format="dimension" name="allDayEventHeight"/>
+        <attr format="integer" name="scrollDuration"/>
+
+
+
+        
+        <attr format="boolean" name="autoLimitTime"/>
+        <attr format="dimension" name="spaceBetweenWeekDaysAndAllDayEvents"/>
+        <attr format="dimension" name="weekDayHeaderRowPaddingTop"/>
+        <attr format="dimension" name="weekDayHeaderRowPaddingBottom"/>
+        <attr format="integer" name="maxTime"/>
+        <attr format="integer" name="minTime"/>
+        <attr format="color" name="newEventColor"/>
+        <attr format="integer" name="minOverlappingMinutes"/>
+        <attr format="integer" name="WeekView_newEventId"/>
+        <attr format="string" name="newEventIdentifier"/>
+        <attr format="integer" name="newEventTimeResolutionInMinutes"/>
+        <attr format="integer" name="newEventLengthInMinutes"/>
+        <attr format="integer" name="newEventIconResource"/>
+        <attr format="integer" name="timeColumnResolution"/>
+        <attr format="fraction" name="zoomFocusPoint"/>
+        <attr format="integer" name="newEventId"/>
+
+        <attr format="boolean" name="WeekView_dropListenerEnabled"/>
+        <attr format="boolean" name="zoomFocusPointEnabled"/>
+        <attr format="boolean" name="isScrollNumberOfVisibleDays"/>
+        <attr format="boolean" name="enableDrawHeaderBackgroundOnlyOnWeekDays"/>
+        <attr format="color" name="todayColumnBackgroundColor"/>
+        <attr format="boolean" name="isUsingCheckersStyle"/>
+        <attr format="dimension" name="headerWeekDayTitleTextSize"/>
+        <attr format="dimension" name="headerWeekDaySubtitleTextSize"/>
+        <attr format="string" name="untitledEventText"/>
+        <attr format="boolean" name="dropListenerEnabled"/>
+        <attr format="dimension" name="spaceBetweenHeaderWeekDayTitleAndSubtitle"/>
+    </declare-styleable></file><file path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/values/dimen.xml" qualifiers=""><dimen name="yearly_padding_side">10dp</dimen><dimen name="yearly_padding_half">3dp</dimen><dimen name="yearly_padding_full">6dp</dimen><dimen name="circle_stroke_width">2dp</dimen><dimen name="monthly_day_height">40dp</dimen><dimen name="weekly_view_row_height">60dp</dimen><dimen name="weekly_view_minimal_event_height">10dp</dimen><dimen name="weekly_view_now_height">10dp</dimen><dimen name="weekly_view_min_day_label">60dp</dimen><dimen name="min_widget_width">250dp</dimen><dimen name="min_widget_height">250dp</dimen><dimen name="repeat_type_margin_start">40dp</dimen><dimen name="yearly_month_padding">0dp</dimen><dimen name="endless_scroll_move_height">24dp</dimen><dimen name="day_monthly_text_size">11sp</dimen><dimen name="meta_text_size">14sp</dimen><dimen name="day_text_size">17sp</dimen><dimen name="month_text_size">22sp</dimen><dimen name="year_view_day_text_size">8sp</dimen><dimen name="event_color_bar_width">4dp</dimen><dimen name="event_color_bar_height">100dp</dimen><dimen name="avatar_size">40dp</dimen><dimen name="avatar_status_size">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="text_size_micro">12sp</dimen><dimen name="text_size_small">14sp</dimen><dimen name="text_size_medium">12sp</dimen><dimen name="text_size_large">22sp</dimen><dimen name="widget_margin_small">15dp</dimen><dimen name="widget_padding_small">15dp</dimen></file><file path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/values/values.xml" qualifiers=""/><file path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/values/string.xml" qualifiers=""/><file path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/values/color.xml" qualifiers=""><color name="colorOne">#a6c0ec</color><color name="colorTwo">#89b4e1</color><color name="colorThree">#6298ad</color><color name="colorFour">#a0e0d4</color><color name="colorFive">#7bc1a9</color><color name="colorSix">#b0e6af</color><color name="colorSeven">#b7d0b3</color><color name="colorEight">#e9ff7d</color><color name="colorNine">#ecfd88</color><color name="colorTen">#ceb08d</color><color name="colorEleven">#ffdade</color><color name="colorTwelve">#ffabb9</color><color name="colorThirteen">#ffa47e</color><color name="colorFourteen">#f6a691</color><color name="colorFifteen">#ffc474</color><color name="colorSixteen">#d6acd5</color><color name="navcolor">#f1f3f5</color><color name="event_color_01">#59dbe0</color><color name="event_color_02">#f57f68</color><color name="event_color_03">#87d288</color><color name="event_color_04">#f8b552</color><color name="event_color_05">#88f6f6</color><color name="toolbar">#efefef</color><color name="toolbar_text">#8f000000</color><color name="accent">#2789e4</color><color name="orange">#F38B41</color><color name="colorAccent">#000</color><color name="indigo_medium">#3F51B5</color><color name="indigo_black">#1A237E</color><color name="grey_extra_light">#EEEEEE</color><color name="grey_light">#E0E0E0</color><color name="grey_normal">#BDBDBD</color><color name="grey_black">#212121</color><color name="color_gray_line">#F2F4F4</color><color name="color_white">#FFFFFF</color><color name="calendar_picker_bg">#00FFFFFF</color><color name="calendar_day_unselected_bg">#00000000</color><color name="calendar_day_selected_bg">#F98C47</color><color name="calendar_day_range_selected_bg">#F98C47</color><color name="calendar_day_disabled_font">#dfe8e0</color><color name="calendar_day_weekend_font">#ff0000</color><color name="calendar_day_selected_font">#FFFFFF</color><color name="calendar_day_normal_font">#333333</color><color name="calendar_month_font">#000000</color><color name="calendar_week_font">#333333</color></file><file path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/main/res/values/themes.xml" qualifiers=""><style name="CalendarCard"/><style name="CalendarCard.Day">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/grey_black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style><style name="CalendarCard.CellTextView">
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:textColor">@color/calendar_cell_text_color</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/background_drawable</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style></file></source><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/build/generated/res/rs/debug"/><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/ajay/projects/bookAppointmentCalender/AppointmentBooking/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems><configuration qualifiers=""><declare-styleable name="CountDownTimerView">
+        <attr format="integer" name="maxTimeInSeconds"/>
+        <attr format="integer" name="intervalInSeconds"/>
+    </declare-styleable><declare-styleable name="WeekView">
+        <attr format="enum" name="firstDayOfWeek">
+            <enum name="sunday" value="1"/>
+            <enum name="monday" value="2"/>
+            <enum name="tuesday" value="3"/>
+            <enum name="wednesday" value="4"/>
+            <enum name="thursday" value="5"/>
+            <enum name="friday" value="6"/>
+            <enum name="saturday" value="7"/>
+        </attr>
+        <attr format="dimension" name="hourHeight"/>
+        <attr format="dimension" name="minHourHeight"/>
+        <attr format="dimension" name="maxHourHeight"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="dimension" name="eventTextSize"/>
+        <attr format="dimension" name="headerColumnPadding"/>
+        <attr format="dimension" name="headerRowPadding"/>
+        <attr format="dimension" name="columnGap"/>
+        <attr format="color" name="headerColumnTextColor"/>
+        <attr format="integer" name="noOfVisibleDays"/>
+        <attr format="boolean" name="showFirstDayOfWeekFirst"/>
+        <attr format="color" name="headerRowBackgroundColor"/>
+        <attr format="color" name="dayBackgroundColor"/>
+        <attr format="color" name="hourSeparatorColor"/>
+        <attr format="color" name="todayBackgroundColor"/>
+        <attr format="color" name="todayHeaderTextColor"/>
+        <attr format="dimension" name="hourSeparatorHeight"/>
+        <attr format="color" name="eventTextColor"/>
+        <attr format="dimension" name="eventPadding"/>
+        <attr format="color" name="headerColumnBackground"/>
+        <attr format="enum" name="dayNameLength">
+            <enum name="length_short" value="1"/>
+            <enum name="length_long" value="2"/>
+        </attr>
+        <attr format="dimension" name="overlappingEventGap"/>
+        <attr format="dimension" name="eventMarginVertical"/>
+        <attr format="float" name="xScrollingSpeed"/>
+        <attr format="dimension" name="eventCornerRadius"/>
+        <attr format="boolean" name="showDistinctPastFutureColor"/>
+        <attr format="boolean" name="showDistinctWeekendColor"/>
+        <attr format="color" name="futureBackgroundColor"/>
+        <attr format="color" name="pastBackgroundColor"/>
+        <attr format="color" name="futureWeekendBackgroundColor"/>
+        <attr format="color" name="pastWeekendBackgroundColor"/>
+        <attr format="boolean" name="showNowLine"/>
+        <attr format="color" name="nowLineColor"/>
+        <attr format="dimension" name="nowLineThickness"/>
+        <attr format="boolean" name="horizontalFlingEnabled"/>
+        <attr format="boolean" name="verticalFlingEnabled"/>
+        <attr format="dimension" name="allDayEventHeight"/>
+        <attr format="integer" name="scrollDuration"/>
+
+
+
+        
+        <attr format="boolean" name="autoLimitTime"/>
+        <attr format="dimension" name="spaceBetweenWeekDaysAndAllDayEvents"/>
+        <attr format="dimension" name="weekDayHeaderRowPaddingTop"/>
+        <attr format="dimension" name="weekDayHeaderRowPaddingBottom"/>
+        <attr format="integer" name="maxTime"/>
+        <attr format="integer" name="minTime"/>
+        <attr format="color" name="newEventColor"/>
+        <attr format="integer" name="minOverlappingMinutes"/>
+        <attr format="integer" name="WeekView_newEventId"/>
+        <attr format="string" name="newEventIdentifier"/>
+        <attr format="integer" name="newEventTimeResolutionInMinutes"/>
+        <attr format="integer" name="newEventLengthInMinutes"/>
+        <attr format="integer" name="newEventIconResource"/>
+        <attr format="integer" name="timeColumnResolution"/>
+        <attr format="fraction" name="zoomFocusPoint"/>
+        <attr format="integer" name="newEventId"/>
+
+        <attr format="boolean" name="WeekView_dropListenerEnabled"/>
+        <attr format="boolean" name="zoomFocusPointEnabled"/>
+        <attr format="boolean" name="isScrollNumberOfVisibleDays"/>
+        <attr format="boolean" name="enableDrawHeaderBackgroundOnlyOnWeekDays"/>
+        <attr format="color" name="todayColumnBackgroundColor"/>
+        <attr format="boolean" name="isUsingCheckersStyle"/>
+        <attr format="dimension" name="headerWeekDayTitleTextSize"/>
+        <attr format="dimension" name="headerWeekDaySubtitleTextSize"/>
+        <attr format="string" name="untitledEventText"/>
+        <attr format="boolean" name="dropListenerEnabled"/>
+        <attr format="dimension" name="spaceBetweenHeaderWeekDayTitleAndSubtitle"/>
+    </declare-styleable></configuration></mergedItems></merger>

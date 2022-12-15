@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BookAppointmentCalender.iml" filepath="$PROJECT_DIR$/.idea/modules/BookAppointmentCalender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.iml" filepath="$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AppointmentBooking/BookAppointmentCalender.AppointmentBooking.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BookAppointmentCalender.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

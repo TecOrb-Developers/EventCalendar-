@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bookappointmentcalender"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:5:5-38:19
+12        android:name="com.bookappointmentcalender.application.App"
+12-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:6:9-40
+13        android:allowBackup="true"
+13-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.8.0] /home/ajay/.gradle/caches/transforms-3/6a19de105318aab1da00cfa3c60fb56e/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+15        android:dataExtractionRules="@xml/data_extraction_rules"
+15-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:8:9-65
+16        android:debuggable="true"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:9:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.BookAppointmentCalender" >
+23-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:14:9-61
+24        <activity
+24-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:17:9-29:20
+25            android:name="com.bookappointmentcalender.ui.ActivityDashboard"
+25-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:18:13-76
+26            android:exported="true" >
+26-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:19:13-36
+27            <intent-filter>
+27-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:21:17-69
+28-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:23:17-77
+30-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32
+33            <meta-data
+33-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:26:13-28:36
+34                android:name="android.app.lib_name"
+34-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:27:17-52
+35                android:value="" />
+35-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:28:17-33
+36        </activity>
+37        <activity
+37-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:30:9-33:52
+38            android:name="com.bookappointmentcalender.ui.ActivityVerticalCalendar"
+38-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:31:13-83
+39            android:exported="true"
+39-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:32:13-36
+40            android:screenOrientation="portrait" />
+40-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:33:13-49
+41        <activity
+41-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:34:9-37:52
+42            android:name="com.bookappointmentcalender.ui.ActivityVerticalCaleSpecialist"
+42-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:35:13-89
+43            android:exported="true"
+43-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:36:13-36
+44            android:screenOrientation="portrait" />
+44-->/home/ajay/projects/bookAppointmentCalender/app/src/main/AndroidManifest.xml:37:13-49
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+48            android:authorities="com.bookappointmentcalender.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] /home/ajay/.gradle/caches/transforms-3/848773e611bbde5d3ec0ec3e63d01c98/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ajay/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ajay/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/ajay/.gradle/caches/transforms-3/a4f0fb44e9b56370f8c2ed23c9d5d030/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

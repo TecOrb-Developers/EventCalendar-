@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/dialog_calender_view.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/dialog_calender_view.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/activity_dashboard.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/toolbar_menu.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/toolbar_menu.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/activity_vertical_calendar.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/activity_vertical_calendar.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/toolbar_dashboard.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/toolbar_dashboard.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/fragment_day_cal.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/fragment_day_cal.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/item_specialist_name.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/item_specialist_name.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/fragment_spe_cal.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/fragment_spe_cal.xml"
+    },
+    {
+        "merged": "com.bookappointmentcalender.app-mergeDebugResources-34:/layout/toolbar_search_places.xml",
+        "source": "com.bookappointmentcalender.app-main-37:/layout/toolbar_search_places.xml"
+    }
+]
