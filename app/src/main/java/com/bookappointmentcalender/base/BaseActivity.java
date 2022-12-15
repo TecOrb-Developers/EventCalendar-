@@ -34,20 +34,6 @@ public abstract class BaseActivity extends AppCompatActivity
         context = this;
       }
 
-    public int getStatusBarHeight() {
-        int result = 0;
-        int resourceId = getResources().getIdentifier("status_bar_height",
-                "dimen", "android");
-        if (resourceId > 0) {
-            result = getResources().getDimensionPixelSize(resourceId);
-        }
-        return result;
-    }
-
-    public void setAppTitle(String title) {
-        TextView textView = findViewById(R.id.toolbar_title);
-        textView.setText(title);
-    }
 
     @Override
     public void onClick(View v) {
@@ -98,26 +84,9 @@ public abstract class BaseActivity extends AppCompatActivity
         super.onResume();
     }
 
-    public void makeToast(String message) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-    }
-
-    public void makeLongToast(String message) {
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
-    }
 
     @Override
     public void onFragmentDetach(String fragmentTag) {
-    }
-    @Override
-    public void onLoadMore(Object responseObj) {
-    }
-    @Override
-    public void onLoadMore(ArrayList<?> list) {
-
-    }
-    public Fragment getFragment(String tag) {
-        return getFragmentManager().findFragmentByTag(tag);
     }
 
 }

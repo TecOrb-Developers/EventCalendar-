@@ -8,22 +8,18 @@ import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.content.res.ResourcesCompat
+import com.appointmentbooking.weekviewCal.*
 import com.bookappointmentcalender.R
 import com.bookappointmentcalender.application.App
 import com.bookappointmentcalender.base.BaseFragmentV4
 import com.bookappointmentcalender.databinding.FragmentDayCalBinding
-import com.bookappointmentcalender.helper.DateFormat
 import com.bookappointmentcalender.helper.HRPrefManager
-import com.bookappointmentcalender.helper.IntentHelper
 import com.bookappointmentcalender.model.CalenderBookingModel
 import com.bookappointmentcalender.model.ProfileModel
 import com.bookappointmentcalender.ui.ActivityDashboard
-import com.appointmentbooking.weekviewCal.*
 import kotlinx.android.synthetic.main.fragment_day_cal.*
-
 import org.json.JSONObject
 import java.text.SimpleDateFormat
 import java.util.*

@@ -14,17 +14,12 @@ public class App extends Application {
     public static App getInstance(){
         return app;
     }
-    private Geocoder geocoder;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        geocoder = new Geocoder(this, Locale.ENGLISH);
         app = this;
         appContext = this;
         MultiDex.install(this);
-    }
-    public Geocoder getGeoCoder() {
-        return geocoder;
     }
 }

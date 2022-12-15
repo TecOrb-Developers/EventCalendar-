@@ -63,22 +63,4 @@ public class BaseFragmentDialog extends DialogFragment
         if(callBacks!=null)callBacks.onFragmentDetach(fragmentTag);
     }
 
-
-
-    @Override
-    public void onLoadMore(Object responseObj) {
-
-    }
-
-
-   /* @Override
-    public void onTaskSuccess(boolean success) {
-
-    }*/
-
-    @Override
-    public void onLoadMore(ArrayList<?> list) {
-
-    }
-
 }

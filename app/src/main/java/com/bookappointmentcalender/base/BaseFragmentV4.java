@@ -68,12 +68,4 @@ public class BaseFragmentV4 extends Fragment implements BaseCallBacks {
         if(callBacks!=null)callBacks.onFragmentDetach(fragmentTag);
     }
 
-
-    @Override
-    public void onLoadMore(Object responseObj) {
-    }
-    @Override
-    public void onLoadMore(ArrayList<?> list) {
-
-    }
 }
