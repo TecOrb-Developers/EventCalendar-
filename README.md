@@ -38,8 +38,10 @@ dependencies {
 	}
 ```      
 
-```
+
 Step 3. Add WeekView in your xml layout for single or multi names.
+
+```
 
 <com.appointmentbooking.weekviewNames.WeekView
             android:id="@+id/weekView"
@@ -67,8 +69,10 @@ Step 3. Add WeekView in your xml layout for single or multi names.
 ```
 
 
-```
+
 Step 4. Add WeekView in your xml layout for calender.
+
+```
 
 <com.appointmentbooking.weekviewCal.WeekViewCal
         android:id="@+id/weekViewCal"
