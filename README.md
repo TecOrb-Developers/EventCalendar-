@@ -115,3 +115,71 @@ mWeekView.setEventLongPressListener(mEventLongPressListener);
 
 ```
 
+step 6. Implement WeekView.MonthChangeListener, 
+WeekView.EventClickListener, WeekView.EventLongPressListener according to your need.
+
+step 7. Provide the events for the WeekView in WeekView.MonthChangeListener.onMonthChange() callback. Please remember that the calendar pre-loads events of three consecutive months to enable lag-free scrolling.
+
+```
+MonthLoader.MonthChangeListener mMonthChangeListener = new MonthLoader.MonthChangeListener() {
+    @Override
+    public List<WeekViewEvent> onMonthChange(int newYear, int newMonth) {
+        // Populate the week view with some events.
+        List<WeekViewEvent> events = getEvents(newYear, newMonth);
+        return events;
+    }
+};
+
+```
+
+
+### Customization
+
+You can customize the look of the WeekView in xml. Use the following attributes in xml. All these attributes also have getters and setters to enable you to change the style dynamically.
+
+- allDayEventHeight
+- columnGap
+- dayBackgroundColor
+- dayNameLength
+- eventMarginVertical
+- eventPadding
+- eventTextColor
+- eventTextSize
+- firstDayOfWeek
+- headerColumnBackground
+- headerColumnPadding
+- headerColumnTextColor
+- headerRowBackgroundColor
+- headerRowPadding
+- hourHeight
+- hourSeparatorColor
+- hourSeparatorHeight
+- noOfVisibleDays
+- overlappingEventGap
+- textSize
+- todayBackgroundColor
+- todayHeaderTextColor
+- showDistinctPastFutureColor
+- futureBackgroundColor
+- pastBackgroundColor
+- showDistinctWeekendColor
+- futureWeekendBackgroundColor
+- pastWeekendBackgroundColor
+- showNowLine
+- nowLineColor
+- nowLineThickness
+- scrollDuration
+
+### Interfaces
+
+Use the following interfaces according to your need.
+
+- mWeekView.setWeekViewLoader() to provide events to the calendar
+- mWeekView.setMonthChangeListener() to provide events to the calendar by months
+- mWeekView.setOnEventClickListener() to get a callback when an event is clicked
+- mWeekView.setEventLongPressListener() to get a callback when an event is long pressed
+- mWeekView.setEmptyViewClickListener() to get a callback when any empty space is clicked
+- mWeekView.setEmptyViewLongPressListener() to get a callback when any empty space is long pressed
+- mWeekView.setDateTimeInterpreter() to set your own labels for the calendar header row and header column
+- mWeekView.setScrollListener() to get an event every time the first visible day has changed
+
